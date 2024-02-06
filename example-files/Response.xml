@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GetCourseDetailsResponse xmlns="http://www.example.org/courses">
+    <CourseDetails>
+        <id>001</id>
+        <name>Spring</name>
+        <details>Learn basics of the Spring framework!</details>
+    </CourseDetails>
+</GetCourseDetailsResponse>
