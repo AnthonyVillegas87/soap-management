@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<GetCourseDetailsResponse xmlns="http://www.example.org/courses">
+<GetCourseDetailsResponse xmlns="http://www.example.org/courses"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.example.org/courses course-details.xsd">
     <CourseDetails>
         <id>001</id>
         <name>Spring</name>
-        <details>Learn basics of the Spring framework!</details>
+        <description>Learn basics of the Spring framework!</description>
     </CourseDetails>
 </GetCourseDetailsResponse>
