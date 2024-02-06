@@ -19,7 +19,7 @@ public class CourseDetailsEndpoint {
     // Create a method which is accepting get course details request as the input
 
     // Configured to accept requests of our namespace to convert from XML to Java
-    @PayloadRoot(namespace = "https://www.example.org/courses", localPart = "GetCourseDetailsRequest")
+    @PayloadRoot(namespace = "http://www.example.org/courses", localPart = "GetCourseDetailsRequest")
     @ResponsePayload
         // The output is the get course details response
     public GetCourseDetailsResponse processCourseDetailsRequest(@RequestPayload GetCourseDetailsRequest request) {
